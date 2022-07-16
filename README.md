@@ -11,7 +11,7 @@ else :
     print("A")
 
 
-## 사전 과제 Track 3-1번
+## 사전 과제 Track 3-2번
 # 2063. 중간값 찾기
 n = int(input())
 data_list = list(map(int, input().split()))
