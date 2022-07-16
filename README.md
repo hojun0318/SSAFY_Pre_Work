@@ -1,10 +1,9 @@
 # SSAFY_Pre_Work
 
 <img width="497" alt="캡처" src="https://user-images.githubusercontent.com/104968672/179360271-7d088723-87a0-412d-91ee-427bb2962850.PNG">
-
-## 사전 과제 Track 3-1번
 ### 출처 : https://swexpertacademy.com/main/code/problem/problemList.do
 
+## 사전 과제 Track 3-1번
 # 1936. 1대1 가위바위보
 a, b = map(int, input().split())
 
