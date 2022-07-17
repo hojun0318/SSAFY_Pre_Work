@@ -40,15 +40,15 @@
 * ds = int(input())
 
 * for i in range(1, ds + 1):
-*    dt = input()
-*  temp = ''
-*    for j in range(len(dt)-1, -1, -1):
-*       temp += dt[j]
+* dt = input()
+* temp = ''
+* for j in range(len(dt)-1, -1, -1):
+* temp += dt[j]
         
-*    if dt == temp:
-*        print('#%d %d' % (i, 1))
-*    else:
-*        print('#%d %d' % (i, 0))
+* if dt == temp:
+* print('#%d %d' % (i, 1))
+* else:
+* print('#%d %d' % (i, 0))
 
 
 ## 사전 과제 Track 3-5번
@@ -56,11 +56,11 @@
 * ds = int(input())
 
 * for i in range(1, ds + 1):
-*    dt = int(input())
-*    result = ''
-*    for j in range(dt):
-*        idx, count = input().split()
-*        result += idx * int(count)
-*    print('#{}'.format(i))
-*    for k in range(1, len(result) + 1, 10):
-*        print(result[k-1:k+10-1])
+* dt = int(input())
+* result = ''
+* for j in range(dt):
+* idx, count = input().split()
+* result += idx * int(count)
+* print('#{}'.format(i))
+* for k in range(1, len(result) + 1, 10):
+* print(result[k-1:k+10-1])
